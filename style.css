@@ -1,21 +1,26 @@
+
+body{
+  background-color: grey;
+}
+
 form{
   border: 4px solid olivedrab;
-  width: 60%;
+  width: 85%;
   height: 1300px;
   margin-left: auto;
   margin-right: auto;
-  background-color: white;
+  background-color: #cfccc6;
   text-align: center;
 
 }
 
 .form2{
   border: 4px solid olivedrab;
-  width: 60%;
+  width: 85%;
   height: 850px;
   margin-left: auto;
   margin-right: auto;
-  background-color: white;
+  background-color: #cfccc6;
   text-align: center
 }
 
@@ -25,6 +30,7 @@ label{
   padding: 12px 12px;
   float: left;
   padding-left: 40px;
+  margin-left: 15px;
 
 
 }
@@ -99,22 +105,23 @@ footer{
 
 .gender{
   float: left;
-  margin-left: 40px;
+  margin-left: 55px;
   font-size: 25px;
   padding-top: 20px;
+  padding-bottom: 20px;
 
 }
 
 .comments{
-  float: left;
+
   margin-left: 5px;
   font-size: 25px;
   padding-top: 10px;
 
 }
 
-.comments textarea{
-
+.comments label{
+  margin-right: 50%;
 
 }
 
